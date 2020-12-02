@@ -27,7 +27,7 @@
   position: relative;
   flex-direction: column;
   display: flex;
-  justify-content: space-between; 
+  justify-content: space-between;
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
@@ -97,7 +97,7 @@
 }
 
 .description {
-  display: flex; 
+  display: flex;
   flex-direction: row;
   justify-content: center;
   align-content: center;
@@ -105,7 +105,7 @@
 
 .two-columns {
   width: 80%;
-  display: flex; 
+  display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
@@ -164,15 +164,6 @@
   font-size: 60px;
   line-height: 1.15;
   font-weight: bold;
-}
-
-.kaufman_subtitle {
-  margin: 0;
-  width: 60%;
-  text-align: center;
-  font-size: 24px;
-  line-height: 34px;
-  font-weight: normal;
 }
 
 .subtitle {
@@ -271,7 +262,7 @@ tr {
 
 .triangle {
   width: 877px;
-  height: 877px;  
+  height: 877px;
   background-image: url(../images/kaufman-triangle.svg);
   background-repeat: no-repeat;
   background-size: contain;
@@ -302,7 +293,7 @@ tr {
   width: 200px;
   color: white;
   margin-right: 0;
-  margin-top: 80px;  
+  margin-top: 80px;
   margin: 0; 
 }
 
@@ -314,7 +305,7 @@ tr {
 /* ------------------------------------------------------------- */
 
 .footer {
-  min-height: 350px;  
+  min-height: 350px;
   background-color: #000000;
   padding-top: 60px;
   padding-bottom: 40px;
@@ -381,10 +372,6 @@ tr {
   margin-bottom: 16px;
 }
 
-.column__content_social {
-
-}
-
 .column-link {
   font-size: 18px;
   line-height: 30px;
@@ -413,15 +400,12 @@ A:before {
 [href*="facebook"]:before {
   content: url(../images/facebook_color_white.svg);
 }
-
 [href*="vk"]:before {
   content: url(../images/vk_color_white.svg);
 }
-
 [href*="instagram"]:before {
   content: url(../images/instagram_color_white.svg);
 }
-
 .table__cell_theme_dark p:nth-of-type(2n) {
   margin-top: 20px;
 } 
