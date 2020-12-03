@@ -29,13 +29,13 @@
 
 .logo {
   width: 183px;
-  height: 32px;
   z-index: 3;
   background-size: contain;
   background-repeat: no-repeat;
 }
 
 .logo_place_header {
+  height: 32px;
   background-image: url(../images/logo_place_header.svg);
   position: absolute;
   top: 30px;
@@ -247,12 +247,13 @@
 
 /*  ----------------------------------KAUFMAN-------------------------- */
 .theme_dark {
-  color: white;
-  background-color: #1f1f1f;
+
 }
 
 
 .kaufman {
+  color: white;
+  background-color: #1f1f1f;  
   width: 100%;
   height: 100%;
   display: flex;
@@ -283,7 +284,7 @@
   width: 200px;
   color: white;
   margin-right: 0;
-  padding-top: 20px;
+  margin-top: 80px;
 }
 
 /*----------------------------------FOOTER -------------------------*/
@@ -291,7 +292,7 @@
   display: flex;
   box-sizing: border-box;
   min-height: 350px;
-  background-color: #000000;
+  background-color:#1f1f1f;;
   padding-top: 60px;
   padding-bottom: 40px;
 }
@@ -346,24 +347,20 @@
   text-decoration: none;
 }
 
-.facebook:before {
-  background-image: url(../images/facebook_color_white.svg);
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-
-a:before {
+.footer__column-link:before {
   display: inline-block;
   margin-right: 10px;
   margin-left: 0;
-  }
+}
 
-[href*="facebook"]:before {
+.footer__column-link_icon_facebook:before {
   content: url(../images/facebook_color_white.svg);
 }
-[href*="vk"]:before {
+
+.footer__column-link_icon_vk:before {
   content: url(../images/vk_color_white.svg);
 }
-[href*="instagram"]:before {
+
+.footer__column-link_icon_instagram:before {
   content: url(../images/instagram_color_white.svg);
 }
