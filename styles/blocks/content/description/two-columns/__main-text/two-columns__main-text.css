@@ -1,0 +1,5 @@
+.two-columns__main-text {
+    align-self: flex-start;
+    min-width: 784px;
+    width: 80%;
+  }
