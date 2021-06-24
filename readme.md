@@ -1,6 +1,6 @@
 ### [Данный проект](https://ravil377.github.io/how-to-learn/) выполнен в рамках учебного процесса совместно с Яндекс.Практикум с использованием только возможностей HTML и CSS.
 
-<img src="https://github.com/Ravil377/how-to-learn/blob/main/assets/how-to-learn.gif" width="250" height="350">>
+<img src="https://github.com/Ravil377/how-to-learn/blob/main/assets/how-to-learn.gif" width="250" height="350">
 
 ### Технологии:
 - Grid,
